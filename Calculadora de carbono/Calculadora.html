@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="script.js"/>
+  <script src="script.js"></script>
+  <meta charset="utf-8">
+  <title> Huella de Carbono </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+
+<header>
+	
+<img src="https://i.ibb.co/9WTcJVc/Variables-Logo-Amundsen-10.jpg" id="logoAmundsen">
+<h1>Calculadora de Huella de Carbono</h1>
+
+</header>
+
+<main>
+	
+<h2> Con las sieguientes preguntas podras calcular tu huella de carbono </h2>
+
+<div class="pregunta">  <img src="https://i.pinimg.com/originals/6b/5b/b8/6b5bb80df745ab4dc98c49c3020ffe26.jpg" class="re">
+
+<p>¿Cuántos ambientes tiene tu casa?</p>
+<input type="number" id="input1">
+<button onclick="calculo1()">Calcular</button>
+<p>El resultado es: <span id="spanResultado1">---</span></p>
+
+ </div>
+
+
+<div class="pregunta">  <img src="https://i.pinimg.com/736x/45/b7/9a/45b79ac807dc4a21a5a5b6f8a78a3593.jpg"class="re"> 
+
+<p>¿Cuántos Km al día viajas en transporte público?
+</p>
+<input type="number" id="input2">
+<button onclick="calculo2()">Calcular</button>
+<p>El resultado es: <span id="spanResultado2">---</span></p>
+
+</div>
+
+
+<div class="pregunta">  <img src="https://img.remediosdigitales.com/e2b810/nissan_leaf/450_1000.jpg"class="re">
+
+<p>¿Cuántas Km al día viajas en auto o camioneta?</p>
+<input type="number" id="input3">
+<button onclick="calculo3()">Calcular</button>
+<p>El resultado es: <span id="spanResultado3">---</span></p>
+
+ </div>
+
+
+<div class="pregunta">  <img src="http://fotos.perfil.com//2019/10/16/900/0/maxi-martinez-7-10162019-791630.jpg"class="re">
+
+<p>¿Cuántos kilos de carne consumes al año?</p>
+<select id="input4">
+     <option value="0">No consumo</option>
+     <option value="0.49">Hasta 25kg</option>
+     <option value="0.98">Más de 25kg</option>
+ </select>
+<button onclick="calculo4()">Calcular</button>
+<p>El resultado es: <span id="spanResultado4">---</span></p>
+
+ </div>
+
+
+
+<div class="pregunta">  <img src="https://api.hipotecarioseguros.com.ar/v1/attachment/read/JMgsxflV3SFLPj2R_lIovyJ8.jpg"class="re"> <p>¿Cuál es tu consumo de electricidad al mes (en Kwh)?
+</p>
+<input type="number" id="input5">
+<button onclick="calculo5()">Calcular</button>
+<p>El resultado es: <span id="spanResultado5">---</span></p>
+
+ </div>
+
+<div class="total">
+
+<p>¿Cuál sería el total de toneladas de Carbono generadas en el año?</p>
+<button id="botonTotal" onclick="calculoT()">Calcular</button>
+<p>En total son: <span id="spanResultadoT">---</span></p>
+
+</div>
+
+
+
+
+</main>
+
+<footer>
+	
+<p>Desarrollado por <a href="https://www.instagram.com/gonza_rft/">Gonzalo refatti</a> en colaboración con Digital House</p>
+
+
+<img src="https://i.ibb.co/qWsqjqw/Logo-Schools-Negro-1.png">
+
+</footer>
+
+</body>
+
+</html>
